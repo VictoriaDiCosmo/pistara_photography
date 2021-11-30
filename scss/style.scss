@@ -492,3 +492,17 @@ html {
         }
     }
 }
+
+
+/*FOOTER*/
+
+@media all and (max-width: 768px) {
+    footer.foot {
+        .footerText {
+            font-size: .7em;
+        }
+        .footerLogos img {
+            width: 70px;
+        }
+    }
+}
