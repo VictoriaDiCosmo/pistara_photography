@@ -397,3 +397,98 @@ html {
         }
     }
 }
+
+
+/*GALERIAS*/
+
+@media only screen and (max-width: 700px) {
+    #gallery {
+        .responsive {
+            width: 49.99999%;
+            margin: 6px 0;
+        }
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #gallery {
+        .responsive {
+            width: 100%;
+        }
+    }
+}
+
+
+/*LOGO*/
+
+@media all and (max-width: 768px) {
+    #nvBar {
+        .banner {
+            img {
+                width: 250px;
+                margin-left: 15%;
+            }
+        }
+    }
+}
+
+@media all and (min-width: 768px) {
+    #nvBar {
+        .banner {
+            img {
+                width: 250px;
+                margin: auto;
+            }
+        }
+    }
+}
+
+
+/*NAVBAR*/
+
+@media all and (max-width: 768px) {
+    #nvBar {
+        .navBar {
+            font-size: .6em;
+        }
+    }
+}
+
+@media all and (min-width: 768px) {
+    #nvBar {
+        .navBar {
+            font-size: 1.2em;
+        }
+    }
+}
+
+
+/*ALBUMES*/
+
+@media all and (max-width: 768px) {
+    #content {
+        .albumes {
+            .albumTitle {
+                font-size: 1.6em;
+            }
+            .albumText {
+                font-size: 3em;
+                padding: 50px;
+            }
+        }
+    }
+}
+
+@media all and (min-width: 768px) {
+    #content {
+        .albumes {
+            .albumTitle {
+                font-size: 4em;
+            }
+            .albumText {
+                font-size: 6em;
+                padding: 50px;
+            }
+        }
+    }
+}
