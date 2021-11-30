@@ -285,3 +285,115 @@ html {
         }
     }
 }
+
+
+/*NAVBAR*/
+
+@media all and (max-width: 768px) {
+    #nvBar {
+        .navBar {
+            font-size: .2em;
+        }
+    }
+}
+
+@media all and (min-width: 768px) {
+    #nvBar {
+        .navBar {
+            font-size: 1.2em;
+        }
+    }
+}
+
+
+/*ALBUMES*/
+
+@media all and (max-width: 768px) {
+    #content {
+        .albumes {
+            .albumTitle {
+                font-size: 1.6em;
+            }
+            .albumText {
+                font-size: 3em;
+                padding: 50px;
+            }
+        }
+    }
+}
+
+@media all and (min-width: 768px) {
+    #content {
+        .albumes {
+            .albumTitle {
+                font-size: 4em;
+            }
+            .albumText {
+                font-size: 6em;
+                padding: 50px;
+            }
+        }
+    }
+}
+
+
+/*FOOTER*/
+
+@media all and (max-width: 768px) {
+    footer.foot {
+        .footerText {
+            font-size: .7em;
+        }
+        .footerLogos a img {
+            width: 60px;
+        }
+        .footerLogo img {
+            width: 1%;
+        }
+    }
+}
+
+@media all and (min-width: 768px) {
+    footer.foot {
+        .footerLogo img {
+            width: 50%;
+        }
+    }
+}
+
+
+/*CONTACTO*/
+
+@media all and (max-width: 768px) {
+    #contacto {
+        .contactoTitle {
+            font-size: 1.3em;
+        }
+        .form-group {
+            width: 70%;
+            .form-control {
+                font-size: .7em;
+            }
+            .form-group.label {
+                font-size: .2em;
+            }
+        }
+    }
+}
+
+@media all and (min-width: 768px) {
+    #contacto {
+        .contactoTitle {
+            font-size: 2.5em;
+        }
+        .form-group {
+            width: 50%;
+            .form-control {
+                font-size: 1em;
+            }
+            .form-group.label {
+                font-size: 5em;
+            }
+        }
+    }
+}
