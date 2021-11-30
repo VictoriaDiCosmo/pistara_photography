@@ -85,3 +85,102 @@ html {
         }
     }
 }
+
+
+/*BIO INDEX*/
+
+@media all and (max-width: 768px) {
+    #content {
+        max-width: 100%;
+        margin: auto;
+        .oferta {
+            font-size: 2em;
+        }
+        .fotoEma {
+            margin: auto;
+            width: 35%;
+        }
+        .textoEma {
+            font-size: 1em;
+            margin-top: 2rem;
+            width: 75%;
+        }
+        .card {
+            height: 25%;
+            .card-body {
+                font-size: .5em;
+            }
+        }
+        .card2 {
+            height: 25%;
+            .card-body2 {
+                font-size: .5em;
+            }
+        }
+        .card3 {
+            height: 25%;
+            .card-body3 {
+                font-size: .5em;
+            }
+        }
+    }
+}
+
+@media all and (min-width: 768px) {
+    #content {
+        .oferta {
+            font-size: 4em;
+        }
+        .fotoEma {
+            margin: auto;
+            width: 20%;
+        }
+        .textoEma {
+            font-size: 1.2em;
+            width: 30%;
+        }
+    }
+}
+
+
+/*HEAD*/
+
+@media all and (max-width:768px) {
+    #home {
+        .homeTitle {
+            font-size: 2.3em;
+        }
+        .homeSubtitle {
+            font-size: 1.2em;
+        }
+        img.logo {
+            display: inline;
+            margin: auto;
+        }
+    }
+}
+
+
+/*CURSOS*/
+
+@media all and (max-width: 768px) {
+    #cursos {
+        .cursosTitle {
+            font-size: 2em;
+        }
+        .card {
+            .card-title {
+                font-size: 1.4em;
+            }
+            .card-text {
+                font-size: .9em;
+            }
+            .plan {
+                font-size: .9em;
+            }
+        }
+        li {
+            font-size: .6em;
+        }
+    }
+}
