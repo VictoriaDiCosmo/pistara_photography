@@ -184,3 +184,104 @@ html {
         }
     }
 }
+
+@media all and (min-width: 768px) {
+    #cursos {
+        .cursosTitle {
+            font-size: 4em;
+        }
+        .card {
+            .card-title {
+                font-size: 2.3em;
+            }
+            .card-text {
+                font-size: 1.4em;
+            }
+        }
+        li {
+            font-size: 1em;
+        }
+    }
+}
+
+
+/*CONTACTO*/
+
+@media all and (max-width: 768px) {
+    #contacto {
+        .contactoTitle {
+            font-size: 1.3em;
+        }
+        .form-group {
+            width: 70%;
+            .form-control {
+                font-size: .7em;
+            }
+            .form-group.label {
+                font-size: .2em;
+            }
+        }
+    }
+}
+
+@media all and (min-width: 768px) {
+    #contacto {
+        .contactoTitle {
+            font-size: 2.5em;
+        }
+        .form-group {
+            width: 50%;
+            .form-control {
+                font-size: 1em;
+            }
+            .form-group.label {
+                font-size: 5em;
+            }
+        }
+    }
+}
+
+
+/*GALERIAS*/
+
+@media only screen and (max-width: 700px) {
+    #gallery {
+        .responsive {
+            width: 49.99999%;
+            margin: 6px 0;
+        }
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #gallery {
+        .responsive {
+            width: 100%;
+        }
+    }
+}
+
+
+/*LOGO*/
+
+@media all and (max-width: 768px) {
+    #nvBar {
+        .banner {
+            img {
+                width: 250px;
+                margin-left: 15%;
+            }
+        }
+    }
+}
+
+@media all and (min-width: 768px) {
+    #nvBar {
+        .banner {
+            img {
+                width: 250px;
+                margin: auto;
+            }
+        }
+    }
+}
