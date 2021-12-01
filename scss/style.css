@@ -1,5 +1,5 @@
 #nvBar .banner {
-  background-image: url("../media/mountain.JPG");
+  background-image: url("../media/mountain.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -288,22 +288,22 @@ footer .footerLogos img {
 }
 
 #content .albumes .retrato {
-  background-image: url("../media/albumes/woman.JPG");
+  background-image: url("../media/albumes/woman.jpg");
   margin: auto;
 }
 
 #content .albumes .cuba {
-  background-image: url("../media/albumes/cuba3.JPG");
+  background-image: url("../media/albumes/cuba3.jpg");
   margin: auto;
 }
 
 #content .albumes .patagonia {
-  background-image: url("../media/albumes/patagonia.JPG");
+  background-image: url("../media/albumes/patagonia.jpg");
   margin: auto;
 }
 
 #content .albumes .flora {
-  background-image: url("../media/albumes/bird.JPG");
+  background-image: url("../media/albumes/bird.jpg");
   margin: auto;
 }
 
