@@ -1,8 +1,8 @@
-#content{
+#content {
     background-color: $col1;
     padding: 5%;
-    .albumes{
-        .albumTitle{
+    .albumes {
+        .albumTitle {
             color: $col2;
             margin: auto;
             text-align: center;
@@ -11,23 +11,23 @@
             border-bottom: 1px solid $col2;
             margin-bottom: 50px;
         }
-        a{
+        a {
             text-decoration: none;
             color: $col2;
         }
-        .albumText{
+        .albumText {
             padding: 1%;
-            animation:cubic-bezier(1, 0, 0, 1); 
+            animation: cubic-bezier(1, 0, 0, 1);
             height: 300px;
             border-bottom: 4px solid $col2;
             color: white;
             text-shadow: 1px 1px 5px $col1;
             border-radius: 15px;
-            text-align:right;
+            text-align: right;
             filter: grayscale(100%);
             -webkit-filter: grayscale(100%);
         }
-        .bgParallax{
+        .bgParallax {
             background-attachment: fixed;
             background-position: center;
             background-repeat: no-repeat;
@@ -37,25 +37,25 @@
             z-index: 1;
             -webkit-transform: translateZ(999px) scale(.9);
         }
-        .bgParallax:hover{
-            filter:none();
+        .bgParallax:hover {
+            filter: none();
             transition: 250ms linear;
             -webkit-filter: grayscale(0);
         }
-        .retrato{
-            background-image: url("../media/albumes/woman.JPG");
+        .retrato {
+            background-image: url("../media/albumes/woman.jpg");
             margin: auto;
         }
-        .cuba{
-            background-image: url("../media/albumes/cuba3.JPG");
+        .cuba {
+            background-image: url("../media/albumes/cuba3.jpg");
             margin: auto;
         }
-        .patagonia{
-            background-image: url("../media/albumes/patagonia.JPG");
+        .patagonia {
+            background-image: url("../media/albumes/patagonia.jpg");
             margin: auto;
         }
-        .flora{
-            background-image: url("../media/albumes/bird.JPG");
+        .flora {
+            background-image: url("../media/albumes/bird.jpg");
             margin: auto;
         }
     }
